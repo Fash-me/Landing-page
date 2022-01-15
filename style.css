@@ -1,0 +1,192 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Header */
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+a.header {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 16px;
+}
+ a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+/* The first section */
+.main {
+    display: flex;
+    padding-top: 150px;
+}
+.heading1 {
+    color: #f9faf8;
+    font-size: 48px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 0px;
+    padding-bottom: 8px;
+    margin: 0px;
+}
+button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+
+}
+button.first {
+    background-color: #3882f6;
+    border: 1px;
+}
+.article1 {
+    padding-right: 100px;
+}
+.section1 {
+    background-color: #1f2937;
+    margin: -8px;
+    padding: 16px 150px 150px
+}
+
+/* Second section  */
+
+.heading2 {
+    font-size: 36px;
+    color: #1f2937;
+    display:flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    padding-top: 24px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 48px;
+    padding: 0px 100px;
+    margin-top: 0px;
+}
+.bitcoin,
+.ethereum,
+.litecoin,
+.ripple {
+    max-width: 250px;
+}
+.info {
+    color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    margin: 0px;
+}
+img.eth {
+    margin-top: 35px;
+   
+
+}
+
+img.ltc {
+    margin-top: 70px;
+}
+
+img.xrp {
+    margin-top: 25px;
+}
+.crypto {
+    border-radius: 5%;
+}
+
+.crypto {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center center;
+    padding: 0px;
+}
+.section2 {
+    padding-bottom: 100px;
+}
+
+/* third section */
+.section3 {
+    background-color: #e5e7eb ;
+    font-size: 36px;
+    padding: 150px 300px ;
+    margin: -8px;
+}
+
+.quote {
+    font-style:italic;
+    font-weight:lighter;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    margin-top: -30px;
+}
+
+/* Fouth section */
+article {
+    background-color: #3882f6;
+    margin: 100px 220px;
+    padding: 50px 100px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.heading3 {
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+
+.writing {
+    color: #e5e7eb;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+}
+.inner {
+    padding-right: 100px;
+}
+
+ button.second {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+   
+}
+
+/* footer */
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 24px 0px;
+    margin: -8px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
